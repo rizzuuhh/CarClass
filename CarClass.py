@@ -25,4 +25,8 @@ class Car:
 car = Car(2021, "Toyota")
 
 # Call the accelerate method five times and display current speed
+for _ in range(5):
+    car.accelerate()
+    current_speed = car.get_speed()
+
 # Call the brake method five times and display current speed
