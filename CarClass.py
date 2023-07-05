@@ -17,7 +17,10 @@ class Car:
       if self.__speed < 0:
         self.__speed = 0
 
-# Return the current speed
+     # Return the current speed
+    def get_speed(self):
+      return self.__speed
+
 # Create a Car object
 # Call the accelerate method five times and display current speed
 # Call the brake method five times and display current speed
