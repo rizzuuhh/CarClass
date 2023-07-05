@@ -28,5 +28,7 @@ car = Car(2021, "Toyota")
 for _ in range(5):
     car.accelerate()
     current_speed = car.get_speed()
+    print("Current speed of the car:", current_speed)
+
 
 # Call the brake method five times and display current speed
