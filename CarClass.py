@@ -4,7 +4,11 @@ class Car:
      self.__year_model = year_model
      self.__make = make
      self.__speed = 0
-# Increase the speed by 5
+
+     # Increase the speed by 5
+    def accelerate(self):
+      self.__speed += 5
+
 # Decrease the speed by 5
 # Ensure speed is not negative
 # Return the current speed
