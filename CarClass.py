@@ -30,5 +30,7 @@ for _ in range(5):
     current_speed = car.get_speed()
     print("Current speed of the car:", current_speed)
 
-
 # Call the brake method five times and display current speed
+for _ in range(5):
+    car.brake()
+    current_speed = car.get_speed()
