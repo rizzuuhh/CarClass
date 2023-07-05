@@ -9,7 +9,10 @@ class Car:
     def accelerate(self):
       self.__speed += 5
 
-# Decrease the speed by 5
+     # Decrease the speed by 5
+    def brake(self):
+      self.__speed -= 5
+
 # Ensure speed is not negative
 # Return the current speed
 # Create a Car object
