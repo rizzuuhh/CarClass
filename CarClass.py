@@ -13,7 +13,10 @@ class Car:
     def brake(self):
       self.__speed -= 5
 
-# Ensure speed is not negative
+     # Ensure speed is not negative
+      if self.__speed < 0:
+        self.__speed = 0
+
 # Return the current speed
 # Create a Car object
 # Call the accelerate method five times and display current speed
