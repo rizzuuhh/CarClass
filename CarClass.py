@@ -1,4 +1,6 @@
-# Initialize data attributes
+class Car:
+    def __init__(self, year_model, make):
+     # Initialize data attributes
 # Increase the speed by 5
 # Decrease the speed by 5
 # Ensure speed is not negative
