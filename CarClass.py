@@ -22,5 +22,7 @@ class Car:
       return self.__speed
 
 # Create a Car object
+car = Car(2021, "Toyota")
+
 # Call the accelerate method five times and display current speed
 # Call the brake method five times and display current speed
